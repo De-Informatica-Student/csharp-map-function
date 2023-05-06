@@ -61,3 +61,8 @@ string[] FillEmptyValues(string[] inputArray, string defaultValue)
     // Return the new array
     return resultArray;
 }
+
+// Test the functions
+DoubleValues(new int[] { 1, 2, 3, 4, 5 });
+IntArrayToStringArray(new int[] { 1, 2, 3, 4, 5 });
+FillEmptyValues(new string[] { "a", "", "c", "", "e" }, "b");
